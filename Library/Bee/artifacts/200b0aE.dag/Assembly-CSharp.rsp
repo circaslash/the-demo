@@ -402,6 +402,7 @@
 "Assets/Scripts/Enemy/WanderingAI.cs"
 "Assets/Scripts/Ground/GroundSpawner.cs"
 "Assets/Scripts/Ground/GroundTile.cs"
+"Assets/Scripts/Obstacle/Obstacle.cs"
 "Assets/Scripts/Player/FPSInput.cs"
 "Assets/Scripts/Player/MouseLook.cs"
 "Assets/Scripts/Player/PlayerCharacter.cs"
