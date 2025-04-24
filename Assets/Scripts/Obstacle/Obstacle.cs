@@ -5,17 +5,20 @@ using System.Collections.Generic;
 public class Obstacle : MonoBehaviour {
 
     PlayerCharacter playerMovement;
+    private SceneController sceneController;
 
 	private void Start () {
-        playerMovement = GameObject.FindObjectOfType<PlayerCharactert>();
+        playerMovement = GameObject.FindObjectOfType<PlayerCharacter>();
 	}
 
-    private void OnCollisionEnter (Collision collision)
+    private void OnTriggerEnter (Collider other)
     {
-        if (collision.gameObject.name == "Player") {
+        //if (collision.gameObject.name == "Player") {
+            Debug.Log("TEST");
+            //sceneController.playSound();
             // Kill the player
-            playerMovement.Die();
-        }
+            //playerMovement.Die();
+        //}
     }
 
     private void Update () {

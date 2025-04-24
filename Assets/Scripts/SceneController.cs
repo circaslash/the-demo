@@ -1,22 +1,27 @@
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    // //[SerializeField] GameObject _enemyPrefab;
-    // private GameObject _enemy;
 
-    // private void Update()
-    // {
-    //     // Enemies will continue to spawn indefinitely as long as there are no
-    //     // enemies on the scene.
-    //     if (_enemy == null)
-    //     {
-    //         _enemy = Instantiate(
-    //             _enemyPrefab,                                    // Prefab
-    //             new Vector3(0, 1, 10),                           // Position
-    //             Quaternion.Euler(0, Random.Range(0, 360), 0)   // Rotation
-    //         );
-    //     }
-    // }
+[SerializeField] AudioSource audioSource;
+
+[SerializeField] private AudioClip music;
+[SerializeField] private AudioClip notes;
+
+void Start() {
 }
+
+// IEnumerator MyCoroutine()
+// {
+//     yield return new WaitForSeconds(5f);
+//     //code here will execute after 5 seconds
+// }
+
+public void playSound() {
+    audioSource.PlayOneShot(notes);
+}
+
+}
+
