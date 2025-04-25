@@ -11,7 +11,7 @@ using UnityEngine;
 public class FPSInput : MonoBehaviour
 {
     [Header("Movement Attributes")]
-    [Range(1.0f, 10.0f)]
+    [Range(1.0f, 20.0f)]
     [SerializeField] float _speed = 6.0f;
     [SerializeField] float _gravity = -9.8f;
 

@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2065113356}
   music: {fileID: 8300000, guid: dfcdc9eddd5b24bfc936462dd5f469b7, type: 3}
-  notes: {fileID: 0}
+  notes: {fileID: 8300000, guid: f0db49f9deb7b418b896fa2e37312261, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6968c6a17fc4aa684f5c2fdc44de04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
+  _speed: 8.51
   _gravity: -9.8
 --- !u!143 &810756051
 CharacterController:
@@ -666,12 +666,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 6910c1001772341109d8853da0823c4d, type: 2}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b9df4169ca6fd42619b459730c65c059, type: 3}
+  m_Resource: {fileID: 8300000, guid: b9df4169ca6fd42619b459730c65c059, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.397
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

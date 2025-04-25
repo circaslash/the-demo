@@ -5,17 +5,17 @@ using System.Collections.Generic;
 public class Obstacle : MonoBehaviour {
 
     PlayerCharacter playerMovement;
-    private SceneController sceneController;
+    SceneController sceneController;
 
 	private void Start () {
         playerMovement = GameObject.FindObjectOfType<PlayerCharacter>();
+        sceneController = GameObject.FindObjectOfType<SceneController>();
 	}
 
     private void OnTriggerEnter (Collider other)
     {
         //if (collision.gameObject.name == "Player") {
-            Debug.Log("TEST");
-            //sceneController.playSound();
+            sceneController.playSound();
             // Kill the player
             //playerMovement.Die();
         //}
