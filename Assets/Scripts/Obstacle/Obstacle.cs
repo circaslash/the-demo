@@ -12,13 +12,14 @@ public class Obstacle : MonoBehaviour {
         sceneController = GameObject.FindObjectOfType<SceneController>();
 	}
 
-    private void OnTriggerEnter (Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         //if (collision.gameObject.name == "Player") {
-            sceneController.playSound();
-            // Kill the player
-            //playerMovement.Die();
+        sceneController.playSound();
+        // Kill the player
+        //playerMovement.Die();
         //}
+        Destroy(gameObject);
     }
 
     private void Update () {

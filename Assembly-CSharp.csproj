@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.34f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/thinkpad/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/thinkpad/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.34f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.34f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.34f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/Scripts/Other/Home.cs" />
     <Compile Include="Assets/Scripts/Enemy/Fireball.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets/Scripts/Player/RayShooter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/Scripts/Other/SceneController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
@@ -102,13 +104,13 @@
     <Compile Include="Assets/Scripts/Enemy/ReactiveTarget.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerCharacter.cs" />
-    <Compile Include="Assets/Scripts/SceneController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Scripts/Player/FPSInput.cs" />
     <Compile Include="Assets/Scripts/Player/MouseLook.cs" />
+    <Compile Include="Assets/Scripts/Other/Utilities.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
